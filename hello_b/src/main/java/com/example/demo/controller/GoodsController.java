@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GoodsController {
 	@GetMapping("/listGoods")
-	public String list() {
+	public String list() { 
 		return "상품목록";
 	}
 }

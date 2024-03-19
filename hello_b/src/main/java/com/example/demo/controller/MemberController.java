@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MemberController {
 	@GetMapping("/listMember")
 	public String listMember() {
-		return "회원목록:ㅇ";
+		return "회원목록";
 	}
 }
