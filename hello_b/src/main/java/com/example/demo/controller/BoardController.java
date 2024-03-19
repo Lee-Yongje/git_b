@@ -10,4 +10,9 @@ public class BoardController {
 	public String listBoard() {
 		return "게시물 목록";
 	}
+	
+	@GetMapping("/insertBoard")
+	public String insertBoard() {
+		return "게시물 등록";
+	}
 }
