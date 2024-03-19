@@ -8,6 +8,7 @@ public class BoardController {
 
 	@GetMapping("/listBoard")
 	public String listBoard() {
+		System.out.println("2");
 		return "게시물 목록";
 	}
 	
